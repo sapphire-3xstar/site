@@ -1,0 +1,166 @@
+h1, h2, h3 {
+    font-family: 'Arial', sans-serif;
+    color: #5758BB;
+}
+
+a {
+    color: #6F1E51;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+ul, ol {
+    margin-left: 20px;
+}
+
+li {
+    line-height: 1.6;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    background: #242424;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #B53471 3px solid;
+}
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header ul {
+    padding: 0;
+    list-style: none;
+}
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #branding {
+    float: left;
+}
+header #branding h1 {
+    margin: 0;
+}
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+header .highlight, header .current a {
+    color: #6F1E51;
+    font-weight: bold;
+}
+header a:hover {
+    color: #ffffff;
+    font-weight: bold;
+}
+.contact-block {
+    color: #ffffff; /* Белый текст для контраста */
+    padding: 20px;
+    margin-top: 30px;
+    border: 1px solid #ffffff;
+}
+
+.block {
+    padding: 20px;
+    margin-top: 30px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.news-item {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.news-date {
+    font-style: italic;
+    color: #666;
+}
+
+.tournament-section {
+    margin: 2em auto;
+    max-width: 800px;
+}
+
+.upcoming-tournaments, .past-tournaments {
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    padding: 2em;
+    margin-bottom: 2em;
+}
+
+.upcoming-tournaments h2, .past-tournaments h2 {
+    color: #A2231D;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+/* Стили для отображения победителя */
+.tournament-winner {
+    font-weight: bold;
+    color: #27ae60; /* Зеленый цвет для выделения победителя */
+}
+
+/* Добавляем немного отступа для визуального разделения */
+.tournament-list-item {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tournament-list-item:last-child {
+    border-bottom: none;
+}
+
+
+/* Секция структуры клана */
+.clan-structure {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.clan-structure h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+.hierarchy {
+    list-style-type: none;
+    padding: 0;
+}
+
+.hierarchy li {
+    font-size: 18px;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
