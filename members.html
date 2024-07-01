@@ -1,82 +1,78 @@
 <!DOCTYPE html>
 <html lang="ru">
 	<head>
-		<meta charset="UTF-8">
-		<link rel="stylesheet" href="css/style.css">
-		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-        <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
-		<title>
-			sapphire - Участники
-		</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap"
+			rel="stylesheet"
+		/>
+		<title>sapphire - Участники</title>
 	</head>
 	<body>
 		<header>
 			<div class="headtainer">
 				<div id="branding">
 					<h1>
-						<span class="highlight">
-							sapphire
-						</span>
+						<span class="highlight"> sapphire </span>
 					</h1>
 				</div>
 				<nav>
 					<ul>
 						<li>
-							<a href="index.html">
-								Главная
-							</a>
+							<a href="index.html"> Главная </a>
 						</li>
 						<li>
-							<a href="news.html">
-								Новости
-							</a>
+							<a href="news.html"> Новости </a>
 						</li>
 						<li>
-							<a href="tournaments.html">
-								Турниры
-							</a>
+							<a href="tournaments.html"> Турниры </a>
 						</li>
 						<li class="current">
-							<a href="members.html">
-								Участники
-							</a>
+							<a href="members.html"> Участники </a>
+						</li>
+						<li>
+							<a href="leaderboard.html"> Таблица лидеров </a>
 						</li>
 					</ul>
 				</nav>
 			</div>
 		</header>
 		<div class="container">
-			<div class="player-page">
-				<h1>
-					Игроки клана sapphire
-				</h1>
-				<section class="clan-structure">
-					<h2>
-						Структура клана
-					</h2>
-					<ul class="hierarchy">
-						<li>
-							Лидер:
-							<strong>
-								3xstar
-							</strong>
-						</li>
-						<li>
-							Заместитель:
-							<strong>
-								68.oreo
-							</strong>
-						</li>
-						<li>
-							Участники:
-							<strong>
-								злой, DOBW, candy_kid, zatricks, вино, soLnce, Www.xgjscag'5d, s1v1xxx
-							</strong>
-						</li>
-					</ul>
-				</section>
+			<h1>Игроки клана sapphire</h1>
+			<div class="members-grid">
+				<div class="member-card">
+						<img src="src/3xstar.png" alt="Фото участника" class="member-photo">
+						<h3 class="member-name">3xstar</h3>
+						<p class="member-hours">Часы в игре: 450</p>
+						<p class="member-bio">17 y.o. / man </p>
+					<div class="strength-scale">
+						<span class="strength-value" style="width: 80%;">8/10</span>
+					</div>
+				</div>
+
+				<div class="member-card">
+						<img src="src/DOBW.PNG" alt="Фото участника" class="member-photo">
+						<h3 class="member-name">DOBW</h3>
+						<p class="member-hours">Часы в игре: 350</p>
+						<p class="member-bio">11 y.o. / man</p>
+					<div class="strength-scale">
+						<span class="strength-value" style="width: 60%;">6/10</span>
+					</div>
+				</div>
+
+				<div class="member-card">
+						<img src="src/noimage.jpeg" alt="Фото участника" class="member-photo">
+						<h3 class="member-name">Имя участника</h3>
+						<p class="member-hours">Часы в игре: 120</p>
+						<p class="member-bio">Краткая биография участника...</p>
+					<div class="strength-scale">
+						<span class="strength-value" style="width: 0%;">?/10</span>
+					</div>
+				</div>
+
 			</div>
 		</div>
 	</body>
-
 </html>

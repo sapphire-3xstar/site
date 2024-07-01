@@ -1,170 +1,291 @@
-h1,h2,h3 {
-	font-family: 'Playfair Display', serif;
+h1,
+h2,
+h3 {
+	font-family: "Playfair Display", serif;
 	letter-spacing: 5px;
 	text-decoration: none;
-	color:#7b68ee ;
+	color: #7b68ee;
 }
 p {
-	font-size:18px;
-	line-height:1.6;
+	font-size: 18px;
+	line-height: 1.6;
 }
 strong {
-	font-weight:bold;
+	font-weight: bold;
 }
 em {
-	font-style:italic;
+	font-style: italic;
 }
-ul,ol {
-	margin-left:20px;
+ul,
+ol {
+	margin-left: 20px;
 }
 li {
-	line-height:1.6;
+	line-height: 1.6;
 }
 body {
 	background-color: #111;
-	color:white;
-	margin:0;
-	padding:0;
+	color: white;
+	margin: 0;
+	padding: 0;
 }
 .container {
-	width:80%;
-	margin:auto;
-	overflow:hidden;
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
 }
-.headtainer{
-    width:80%;
-	margin:auto;
-	overflow:hidden;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 5%;
+.headtainer {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 5%;
 }
 header {
-	background:#151515;
-	color:#c9c9c9;
-	min-height:70px;
-	border-bottom:#ddb500 3px solid;
-    font-weight:bold;
+	background: #151515;
+	color: #c9c9c9;
+	min-height: 70px;
+	border-bottom: #ddb500 3px solid;
+	font-weight: bold;
 }
 header a {
-	color:#c9c9c9;
-	text-decoration:none;
-	text-transform:uppercase;
-	font-size:16px;
-    transition: all 0.5s ease;
+	color: #c9c9c9;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	transition: all 0.5s ease;
 }
 header ul {
-	padding:0;
-	list-style:none;
+	padding: 0;
+	list-style: none;
 }
 header li {
-	float:left;
-	display:inline;
-	padding:0 20px 0 20px;
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
 }
 header #branding {
-	float:left;
+	float: left;
 }
 header #branding h1 {
-	margin:0;
+	margin: 0;
 }
 header nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-	float:right;
-	margin-top:10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	float: right;
+	margin-top: 10px;
 }
-header .highlight,header .current a {
-	color:#ddb500   ;
-	font-weight:bold;
-    transition: all 0.5s ease;
+header .highlight,
+header .current a {
+	color: #ddb500;
+	font-weight: bold;
+	transition: all 0.5s ease;
 }
 header a:hover {
-	color:#ffffff;
-    transition: all 0.5s ease;
-    text-shadow: 0 0 5px #082567, 0 0 10px #082567, 0 0 15px #082567, 0 0 10px #082567, 0 0 10px #082567, 0 0 4px #082567, 0 0 5px #082567, 0 0 7px #082567;
+	color: #ffffff;
+	transition: all 0.5s ease;
+	text-shadow:
+		0 0 5px #082567,
+		0 0 10px #082567,
+		0 0 15px #082567,
+		0 0 10px #082567,
+		0 0 10px #082567,
+		0 0 4px #082567,
+		0 0 5px #082567,
+		0 0 7px #082567;
 }
 .contact-block {
-	color:#ffffff;
-	padding:20px;
-	margin-top:30px;
-	border:1px solid #ffffff;
+	color: #ffffff;
+	padding: 20px;
+	margin-top: 30px;
+	border: 1px solid #ffffff;
 	border-radius: 5px;
 }
 .block {
-	padding:20px;
-	margin-top:30px;
-	border-bottom:1px solid #ffffff;
+	padding: 20px;
+	margin-top: 30px;
+	border-bottom: 1px solid #ffffff;
 }
 .news-item {
-	margin-top:20px;
-	padding:20px;
-	border:1px solid #ddd;
-	border-radius:5px;
+	margin-top: 20px;
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
 }
 .news-item a {
-    color:#0F52BA;
-	text-decoration:none;
-	text-transform:uppercase;
-	font-size:16px;
-    transition: all 0.5s ease;
-    border: 1px solid #ffffff;
-    border-radius: 5px;
-    padding: 10px;
+	color: #0f52ba;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	transition: all 0.5s ease;
+	border: 1px solid #ffffff;
+	border-radius: 5px;
+	padding: 10px;
 }
 .news-item a:hover {
-    color:#ffffff;
-    transition: all 0.5s ease;
-    text-shadow: 0 0 5px #082567, 0 0 10px #082567, 0 0 15px #082567, 0 0 10px #082567, 0 0 10px #082567, 0 0 4px #082567, 0 0 5px #082567, 0 0 7px #082567;
+	color: #ffffff;
+	transition: all 0.5s ease;
+	text-shadow:
+		0 0 5px #082567,
+		0 0 10px #082567,
+		0 0 15px #082567,
+		0 0 10px #082567,
+		0 0 10px #082567,
+		0 0 4px #082567,
+		0 0 5px #082567,
+		0 0 7px #082567;
 }
 .news-date {
-	font-style:italic;
-	color:#666;
+	font-style: italic;
+	color: #666;
 }
 .tournament-section {
-	margin:2em auto;
-	max-width:800px;
+	margin: 2em auto;
+	max-width: 800px;
 }
-.upcoming-tournaments,.past-tournaments {
-	border:1px solid #dddddd;
-	border-radius:4px;
-	padding:2em;
-	margin-bottom:2em;
+.upcoming-tournaments,
+.past-tournaments {
+	border: 1px solid #dddddd;
+	border-radius: 4px;
+	padding: 2em;
+	margin-bottom: 2em;
 }
-.upcoming-tournaments h2,.past-tournaments h2 {
-	font-size:1.5em;
-	margin-bottom:0.5em;
+.upcoming-tournaments h2,
+.past-tournaments h2 {
+	font-size: 1.5em;
+	margin-bottom: 0.5em;
 }
 .tournament-winner {
-	font-weight:bold;
-	color:#27ae60;
+	font-weight: bold;
+	color: #27ae60;
 }
 .tournament-list-item {
-	padding:10px 0;
-	border-bottom:1px solid #ddd;
-	display:flex;
-	justify-content:space-between;
-	align-items:center;
+	padding: 10px 0;
+	border-bottom: 1px solid #ddd;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 .tournament-list-item:last-child {
-	border-bottom:none;
+	border-bottom: none;
 }
-.clan-structure {
-	padding:20px;
-	margin-top:20px;
+
+/* Стили для контейнера сетки */
+.members-grid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
-.clan-structure h2 {
-	color:#333;
-	font-size:24px;
+
+/* Стили для карточек участников */
+.member-card {
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	padding: 20px;
+	margin: 10px;
+	width: auto; /* Для 3 карточек в строку */
+	/* width: calc(25% - 20px); */ /* Раскомментируйте эту строку для 4 карточек в строку */
 }
-.hierarchy {
-	list-style-type:none;
-	padding:0;
+
+.member-photo {
+	width: auto;
+	height: 150px;
+	border-radius: 50%;
 }
-.hierarchy li {
-	font-size:18px;
-	border-bottom:1px solid #ddd;
-	padding:10px 0;
+
+.member-name {
+	font-size: 1.5em;
+	margin-top: 10px;
+}
+
+.member-hours,
+.member-bio {
+	font-size: 1em;
+	margin-top: 5px;
+}
+
+.strength-scale {
+	background-color: #ddd;
+	border-radius: 5px;
+	margin-top: 10px;
+	width: 250px; /* Полная ширина контейнера */
+}
+
+.strength-value {
+	display: block;
+	height: 20px;
+	background-color: #4caf50;
+	text-align: center;
+	line-height: 20px;
+	color: rgb(0, 0, 0);
+	border-radius: 5px;
+}
+
+/* CSS для стилизации кнопок */
+.social-buttons {
+	position: fixed;
+	bottom: 10px;
+	left: 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.youtube-button,
+.tiktok-button {
+	padding: 10px 20px;
+	border: none;
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.youtube-button {
+	background-color: #ff0000; /* Красный цвет YouTube */
+}
+
+.tiktok-button {
+	background-color: #000000; /* Черный цвет TikTok */
+}
+
+.leaderboard-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 25px 0;
+	font-size: 0.9em;
+	min-width: 400px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.leaderboard-table th,
+.leaderboard-table td {
+	padding: 12px 15px;
+	text-align: center;
+}
+
+.leaderboard-table tbody tr {
+	border-bottom: 1px solid #585858;
+}
+
+.leaderboard-table tbody tr:last-of-type {
+	border-bottom: 2px solid #585858;
+}
+
+.leaderboard-table tbody tr.active-row {
+	font-weight: bold;
+	color: #585858;
+}
+
+.leaderboard-table td:last-child {
+	border-right: none;
+}
+
+.leaderboard-table tr td:nth-child(even) {
+	background-color: #1f1f1f; /* Светлый тон для каждой второй ячейки */
 }
